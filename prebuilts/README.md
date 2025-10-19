@@ -1,5 +1,5 @@
 # ViPER4Android FX Redesign (ViperFX RE)
-ViPER4Android FX with Material You design with improvements and more features.
+ViPER4Android FX with [Material 3 Expressive](https://m3.material.io/blog/building-with-m3-expressive) design with improvements and more features.
 
 [![Platform](https://img.shields.io/badge/android-platform?style=for-the-badge&label=platform&labelColor=21262d&color=6e7681)](https://www.android.com) [![API](https://img.shields.io/badge/24%2B-level?style=for-the-badge&logo=android&logoColor=3cd382&label=API&labelColor=21262d&color=ff663b)](https://developer.android.com/studio/releases/platforms) [![Release](https://img.shields.io/github/v/release/WSTxda/ViperFX-RE-Releases?display_name=tag&style=for-the-badge&logo=github&labelColor=21262d&color=1f6feb)](https://github.com/WSTxda/ViperFX-RE-Releases/releases/latest) [![Downloads](https://img.shields.io/github/downloads/WSTxda/ViperFX-RE-Releases/total?style=for-the-badge&labelColor=21262d&color=238636)](https://github.com/WSTxda/ViperFX-RE-Releases/releases)
 
@@ -37,14 +37,6 @@ ViPER4Android FX with Material You design with improvements and more features.
       height="80">](https://github.com/WSTxda/ViperFX-RE-Releases/releases) [<img src="https://raw.githubusercontent.com/WSTxda/WSTxda/main/images/Telegram.svg"
       alt='Get it on Telegram'
       height="80">](https://t.me/WSTprojects)
-
-## More links
-
-### Translate to your language
-
-<a href="https://crowdin.com/project/viper-fx-redesign">
-  <img src="https://img.shields.io/badge/Crowdin-25292F.svg?style=for-the-badge&logo=Crowdin&logoColor=white" alt="Crowdin" style="width: 170px; height: auto;">
-</a>
 
 ### Donate
 
