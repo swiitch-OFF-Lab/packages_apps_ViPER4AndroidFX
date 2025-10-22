@@ -9,6 +9,9 @@ cc_library_shared {
     cflags: [
         "-DVERSION_CODE=800",
         "-DVERSION_NAME=\"8.0\"",
+        "-Wno-unused-result",
+        "-Wno-unneeded-internal-declaration",
+        "-Wno-unused-parameter",
     ],
     shared_libs: [
         "libaudioutils",
