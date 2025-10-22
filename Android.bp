@@ -16,5 +16,15 @@ android_app_import {
         "androidx.window.sidecar",
     ],
     system_ext_specific: true,
-    required: ["libv4a_re"],
+    required: [
+        "libv4a_re",
+        "preinstalled-packages-platform-viperfx.xml",
+    ],
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-platform-viperfx.xml",
+    src: "preinstalled-packages-platform-viperfx.xml",
+    relative_install_path: "sysconfig",
+    system_ext_specific: true,
 }
