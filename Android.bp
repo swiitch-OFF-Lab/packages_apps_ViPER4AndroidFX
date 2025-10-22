@@ -7,7 +7,10 @@ android_app_import {
     dex_preopt: {
         enabled: false,
     },
-    overrides: ["AudioFX"],
+    overrides: [
+        "AudioFX",
+        "MusicFX",
+    ],
     system_ext_specific: true,
     required: ["libv4a_re"],
 }
