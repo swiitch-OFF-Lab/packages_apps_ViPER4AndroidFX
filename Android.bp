@@ -18,36 +18,3 @@ android_app_import {
     system_ext_specific: true,
     required: ["libv4a_re"],
 }
-
-cc_prebuilt_library_shared {
-    name: "libv4a_re",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "vendor/lib/soundfx/libv4a_re.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "vendor/lib64/soundfx/libv4a_re.so",
-            ],
-        },
-    },
-    shared_libs: [
-        "libaudioutils",
-        "libcutils",
-        "liblog",
-        "libc++",
-        "libc",
-        "libm",
-        "libdl",
-    ],
-    ignore_max_page_size: true,
-    compile_multilib: "both",
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
