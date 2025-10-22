@@ -5,11 +5,15 @@ android_app_import {
     preprocessed: true,
     presigned: true,
     dex_preopt: {
-        enabled: false,
+        enabled: true,
     },
     overrides: [
         "AudioFX",
         "MusicFX",
+    ],
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
     ],
     system_ext_specific: true,
     required: ["libv4a_re"],
