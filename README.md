@@ -2,7 +2,7 @@
 
 ViPER4Android FX prebuilts and libraries.
 
-* To include ViPER4Android FX, add this into your device tree's `device.mk`
+* To include ViPER4Android FX, add this Makefile rule into your device tree's `device.mk`.
 
 ```Makefile
 # ViPER4Android FX
@@ -10,7 +10,7 @@ PRODUCT_PACKAGES += \
     ViPER4AndroidFX
 ```
 
-* And add this entries into your device tree's `audio_effects.xml`:
+* And add these entries into your device tree's `audio_effects.xml`.
 
 ```Xml
     <library name="v4a_re" path="libv4a_re.so"/>
