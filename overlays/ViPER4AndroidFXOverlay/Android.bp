@@ -1,0 +1,10 @@
+//
+// SPDX-FileCopyrightText: TheParasiteProject
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "ViPER4AndroidFXOverlay",
+    product_specific: true,
+    sdk_version: "current",
+}

@@ -19,6 +19,7 @@ android_app_import {
     required: [
         "libv4a_re",
         "preinstalled-packages-platform-viperfx.xml",
+        "ViPER4AndroidFXOverlay",
     ],
 }
 
