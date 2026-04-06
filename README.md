@@ -2,7 +2,9 @@
 
 ViPER4Android FX prebuilts and libraries.
 
-* To include ViPER4Android FX, add this Makefile rule into your device tree's `device.mk`.
+1. Clone this repo to packages/apps/ViPER4AndroidFX
+
+2. To build add `device.mk` in device tree:
 
 ```Makefile
 # ViPER4Android FX
@@ -16,6 +18,8 @@ PRODUCT_PACKAGES += \
     <library name="v4a_re" path="libv4a_re.so"/>
     <effect name="v4a_standard_re" library="v4a_re" uuid="90380da3-8536-4744-a6a3-5731970e640f"/>
 ```
+
+example :- https://github.com/Spanish-or-Vanish/android_device_xiaomi_sm8350-common/commit/7fcd9911f2d46022d45db4e72b506ba449a7e6a0
 
 ## Credits
 
